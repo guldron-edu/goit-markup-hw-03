@@ -11,14 +11,14 @@ body {
   line-height: 1.71;
   color: var(--text-color);
 }
-.link {
+.nav-link {
   color: inherit;
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
 }
-.link:hover,
-.link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: rgb(3, 169, 244);
 }
 .sign {
@@ -29,7 +29,7 @@ body {
   text-transform: uppercase;
 }
 
-.title {
+.content-title {
   font-size: 30px;
   line-height: 1.2;
   font-weight: 400;
@@ -42,7 +42,8 @@ body {
   cursor: pointer;
 }
 
-.list {
+.nav-list,
+.content-list {
   list-style-type: none;
 }
 /* ul {
