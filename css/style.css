@@ -1,0 +1,50 @@
+:root {
+  --main-font: 'Playfair Display', Cambria, Cochin, Georgia, Times,
+    'Times New Roman', serif;
+  --sign-font: 'Ubuntu', Arial, Helvetica, sans-serif;
+  --text-color: rgb(98, 98, 98);
+}
+
+body {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--text-color);
+}
+.link {
+  color: inherit;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+.link:hover,
+.link:focus {
+  color: rgb(3, 169, 244);
+}
+.sign {
+  font-family: var(--sign-font);
+  font-weight: 300;
+  color: rgb(180, 173, 158);
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.button {
+  font-family: inherit;
+  color: inherit;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.list {
+  list-style-type: none;
+}
+/* ul {
+  list-style-type: none;
+} */
